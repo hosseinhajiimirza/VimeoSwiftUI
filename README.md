@@ -52,7 +52,7 @@ I have already done this project to search videos from Vimeo. I find it very sim
      HomeViewController, SearchResultsViewController, and VideoDetailsViewController.
   4. to Create our tableView for SearchResultsViewController:
    
-    A. Create an enum that conforms to hashable for our sections and itmes that is array of our model (items: [Model] = [])
+    A. Create an enum that conforms to hashable for our sections and itmes that is array of our model
     
     B. Create dataSource and snapshot:
 
