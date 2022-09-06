@@ -51,21 +51,25 @@ I have already done this project to search videos from Vimeo. I find it very sim
   3. Create Controllers: 
      HomeViewController, SearchResultsViewController, and VideoDetailsViewController.
   4. to Create our tableView for SearchResultsViewController:
+   
     A. Create an enum that conforms to hashable for our sections and itmes that is array of our model (items: [Model] = [])
     
     B. Create dataSource and snapshot:
     ```
+    
     var dataSource: UITableViewDiffableDataSource<Section,Model>!
     var snapshot: NSDiffableDataSourceSnapshot<Section,Model>!
     ```
     
     C. Create Snapshot
     ```
+    
     func createSnapshot() -> NSDiffableDataSourceSnapshot<Section,Model>
     ```
     
     D. DataSource Configuration
     ```
+    
     func configureDataSource() and inside of our func: .init(tableView:cellProvider:)
     ```
     
@@ -74,7 +78,9 @@ I have already done this project to search videos from Vimeo. I find it very sim
   5. we can change the language locally or in the settings app. to add new language:
      A. We can create Localizable.strings files for each Screen (or we can set two zib files) and define our keys.
      B. We can create an extension for String to read the keys from bundle and create our NSLocalizedString:
+     
     ```
+    
     extension String {
        func addLocalizableString(language: String) -> String {
           let path = Bundle.main.path(forResource: language, ofType: "lproj")
@@ -83,4 +89,5 @@ I have already done this project to search videos from Vimeo. I find it very sim
           return NSLocalizedString(self, tableName: nil, bundle: bundle!, value: "", comment: "")
     }
 }
+    ```
     
