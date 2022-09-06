@@ -52,19 +52,24 @@ I have already done this project to search videos from Vimeo. I find it very sim
      HomeViewController, SearchResultsViewController, and VideoDetailsViewController.
   4. to Create our tableView for SearchResultsViewController:
     A. Create an enum that conforms to hashable for our sections and itmes that is array of our model (items: [Model] = [])
+    
     B. Create dataSource and snapshot:
+    
     ```
     var dataSource: UITableViewDiffableDataSource<Section,Model>!
     var snapshot: NSDiffableDataSourceSnapshot<Section,Model>!
     ```
     C. Create Snapshot
+    
     ```
     func createSnapshot() -> NSDiffableDataSourceSnapshot<Section,Model> {}
     ```
+    
     D. DataSource Configuration
     ```
     func configureDataSource() {}
     ```
+    
     and inside of our func: .init(tableView:cellProvider:)
     **
     if we wanted to use CollectionView, We should also called another func to generate layout. and also if we wanted to build something like appStore we can use UICollectionViewCompositionalLayout and create our custom cells, SupplementaryViewKind, headers and ...
