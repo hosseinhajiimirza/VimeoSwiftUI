@@ -21,6 +21,8 @@ IMPORTANT: when I run the app on the simulator and I want to open the VideoDetai
 I found this line on the console log and i think this is a bug from xcode. If you know why this is happening, I will be happy if you share it with me:
 <CATransformLayer: 0x600003bafc20> - changing property masksToBounds in transform-only layer, will have no effect
 
+I did not add the unit test and UI test files because I have no knowledge about testing ios apps.
+
 # App Information:
 
 Framework: SwiftUI
