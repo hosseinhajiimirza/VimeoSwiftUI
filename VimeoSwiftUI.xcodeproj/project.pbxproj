@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0C150628A78D5C0049012D /* VimeoSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C150528A78D5C0049012D /* VimeoSwiftUIApp.swift */; };
+		4F0C150A28A78D5E0049012D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0C150928A78D5E0049012D /* Assets.xcassets */; };
+		4F0C150D28A78D5E0049012D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0C150C28A78D5E0049012D /* Preview Assets.xcassets */; };
+		4F0C151828A791B50049012D /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C151728A791B50049012D /* Host.swift */; };
+		4F0C151A28A7D4110049012D /* AnimatedLinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C151928A7D4110049012D /* AnimatedLinearGradient.swift */; };
+		4F0C151C28A7DC2B0049012D /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C151B28A7DC2B0049012D /* CustomActivityIndicator.swift */; };
+		4F0C153128A7ECCB0049012D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C153028A7ECCB0049012D /* ViewModel.swift */; };
+		4F0C154428A7EDC10049012D /* PagingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C153328A7EDC10049012D /* PagingModel.swift */; };
+		4F0C154528A7EDC10049012D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C153528A7EDC10049012D /* DataModel.swift */; };
+		4F0C154628A7EDC10049012D /* CommentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C153628A7EDC10049012D /* CommentsModel.swift */; };
+		4F0C154728A7EDC10049012D /* SizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C153728A7EDC10049012D /* SizeModel.swift */; };
+		4F0C154828A7EDC10049012D /* PicturesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C153828A7EDC10049012D /* PicturesModel.swift */; };
+		4F0C154928A7EDC10049012D /* PurpleConnectionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C153928A7EDC10049012D /* PurpleConnectionsModel.swift */; };
+		4F0C154A28A7EDC10049012D /* MetadataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C153A28A7EDC10049012D /* MetadataModel.swift */; };
+		4F0C154B28A7EDC10049012D /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C153B28A7EDC10049012D /* MainModel.swift */; };
+		4F0C154C28A7EDC10049012D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C153E28A7EDC10049012D /* NetworkManager.swift */; };
+		4F0C154D28A7EDC10049012D /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C154028A7EDC10049012D /* UIImageExtension.swift */; };
+		4F0C155028A7EDC10049012D /* HashableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C154328A7EDC10049012D /* HashableExtension.swift */; };
+		4F0C155228A7FA5F0049012D /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C155128A7FA5F0049012D /* CustomSearchBar.swift */; };
+		4F0C155428A7FB6D0049012D /* WalkthroughAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C155328A7FB6D0049012D /* WalkthroughAnimation.swift */; };
+		4F0C155628A815340049012D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C155528A815340049012D /* Home.swift */; };
+		4F0C155828A819F60049012D /* SearchResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C155728A819F60049012D /* SearchResultRow.swift */; };
+		4F0C155A28A81AB90049012D /* SearchResultListRowThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C155928A81AB90049012D /* SearchResultListRowThumbnail.swift */; };
+		4F0C155C28A8BAB40049012D /* VideoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C155B28A8BAB40049012D /* VideoDetails.swift */; };
+		4F0C155E28A8BC9A0049012D /* VideoDetailsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C155D28A8BC9A0049012D /* VideoDetailsButton.swift */; };
+		4F0C156028A8C3370049012D /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C155F28A8C3370049012D /* CustomVideoPlayer.swift */; };
+		4F0C156328A8D9A60049012D /* HCVimeoVideoExtractor in Frameworks */ = {isa = PBXBuildFile; productRef = 4F0C156228A8D9A60049012D /* HCVimeoVideoExtractor */; };
+		4F0C156528A8E9800049012D /* Walkthrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C156428A8E9800049012D /* Walkthrough.swift */; };
+		4F0C157928A902C60049012D /* VideoDetailsThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C157828A902C60049012D /* VideoDetailsThumbnail.swift */; };
+		4F0C157C28A912F90049012D /* CustomVideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C157B28A912F90049012D /* CustomVideoPlayerViewModel.swift */; };
+		4F0C157F28A91CA00049012D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C157E28A91CA00049012D /* AppDelegate.swift */; };
+		4F0C158128A920330049012D /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C158028A920330049012D /* ViewExtensions.swift */; };
+		4F0C158328A924CB0049012D /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C158228A924CB0049012D /* UIApplicationExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F0C150228A78D5C0049012D /* VimeoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimeoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0C150528A78D5C0049012D /* VimeoSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimeoSwiftUIApp.swift; sourceTree = "<group>"; };
+		4F0C150928A78D5E0049012D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F0C150C28A78D5E0049012D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F0C151728A791B50049012D /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		4F0C151928A7D4110049012D /* AnimatedLinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedLinearGradient.swift; sourceTree = "<group>"; };
+		4F0C151B28A7DC2B0049012D /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicator.swift; sourceTree = "<group>"; };
+		4F0C153028A7ECCB0049012D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4F0C153328A7EDC10049012D /* PagingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingModel.swift; sourceTree = "<group>"; };
+		4F0C153528A7EDC10049012D /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		4F0C153628A7EDC10049012D /* CommentsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsModel.swift; sourceTree = "<group>"; };
+		4F0C153728A7EDC10049012D /* SizeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeModel.swift; sourceTree = "<group>"; };
+		4F0C153828A7EDC10049012D /* PicturesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesModel.swift; sourceTree = "<group>"; };
+		4F0C153928A7EDC10049012D /* PurpleConnectionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurpleConnectionsModel.swift; sourceTree = "<group>"; };
+		4F0C153A28A7EDC10049012D /* MetadataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetadataModel.swift; sourceTree = "<group>"; };
+		4F0C153B28A7EDC10049012D /* MainModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		4F0C153E28A7EDC10049012D /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4F0C154028A7EDC10049012D /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		4F0C154328A7EDC10049012D /* HashableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashableExtension.swift; sourceTree = "<group>"; };
+		4F0C155128A7FA5F0049012D /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		4F0C155328A7FB6D0049012D /* WalkthroughAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughAnimation.swift; sourceTree = "<group>"; };
+		4F0C155528A815340049012D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4F0C155728A819F60049012D /* SearchResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultRow.swift; sourceTree = "<group>"; };
+		4F0C155928A81AB90049012D /* SearchResultListRowThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultListRowThumbnail.swift; sourceTree = "<group>"; };
+		4F0C155B28A8BAB40049012D /* VideoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetails.swift; sourceTree = "<group>"; };
+		4F0C155D28A8BC9A0049012D /* VideoDetailsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsButton.swift; sourceTree = "<group>"; };
+		4F0C155F28A8C3370049012D /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		4F0C156428A8E9800049012D /* Walkthrough.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walkthrough.swift; sourceTree = "<group>"; };
+		4F0C157828A902C60049012D /* VideoDetailsThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsThumbnail.swift; sourceTree = "<group>"; };
+		4F0C157A28A909190049012D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4F0C157B28A912F90049012D /* CustomVideoPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayerViewModel.swift; sourceTree = "<group>"; };
+		4F0C157D28A916F70049012D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4F0C157E28A91CA00049012D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F0C158028A920330049012D /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		4F0C158228A924CB0049012D /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F0C14FF28A78D5C0049012D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0C156328A8D9A60049012D /* HCVimeoVideoExtractor in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F0C14F928A78D5C0049012D = {
+			isa = PBXGroup;
+			children = (
+				4F0C150428A78D5C0049012D /* VimeoSwiftUI */,
+				4F0C150328A78D5C0049012D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F0C150328A78D5C0049012D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C150228A78D5C0049012D /* VimeoSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F0C150428A78D5C0049012D /* VimeoSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C157628A8F02B0049012D /* Resources */,
+				4F0C153C28A7EDC10049012D /* Helper */,
+				4F0C153228A7EDC10049012D /* Models */,
+				4F0C156628A8EDE40049012D /* Views */,
+				4F0C152F28A7ECB90049012D /* ViewModels */,
+				4F0C157E28A91CA00049012D /* AppDelegate.swift */,
+				4F0C150528A78D5C0049012D /* VimeoSwiftUIApp.swift */,
+				4F0C150B28A78D5E0049012D /* Preview Content */,
+				4F0C157A28A909190049012D /* Info.plist */,
+				4F0C157D28A916F70049012D /* README.md */,
+			);
+			path = VimeoSwiftUI;
+			sourceTree = "<group>";
+		};
+		4F0C150B28A78D5E0049012D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C150C28A78D5E0049012D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F0C152F28A7ECB90049012D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C153028A7ECCB0049012D /* ViewModel.swift */,
+				4F0C157B28A912F90049012D /* CustomVideoPlayerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4F0C153228A7EDC10049012D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C153B28A7EDC10049012D /* MainModel.swift */,
+				4F0C153328A7EDC10049012D /* PagingModel.swift */,
+				4F0C153428A7EDC10049012D /* DataModelGroup */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F0C153428A7EDC10049012D /* DataModelGroup */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C153528A7EDC10049012D /* DataModel.swift */,
+				4F0C153628A7EDC10049012D /* CommentsModel.swift */,
+				4F0C153728A7EDC10049012D /* SizeModel.swift */,
+				4F0C153828A7EDC10049012D /* PicturesModel.swift */,
+				4F0C153928A7EDC10049012D /* PurpleConnectionsModel.swift */,
+				4F0C153A28A7EDC10049012D /* MetadataModel.swift */,
+			);
+			path = DataModelGroup;
+			sourceTree = "<group>";
+		};
+		4F0C153C28A7EDC10049012D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C153D28A7EDC10049012D /* Managers */,
+				4F0C153F28A7EDC10049012D /* Extensions */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4F0C153D28A7EDC10049012D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C153E28A7EDC10049012D /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4F0C153F28A7EDC10049012D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C154028A7EDC10049012D /* UIImageExtension.swift */,
+				4F0C154328A7EDC10049012D /* HashableExtension.swift */,
+				4F0C158028A920330049012D /* ViewExtensions.swift */,
+				4F0C158228A924CB0049012D /* UIApplicationExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4F0C156628A8EDE40049012D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C157728A8F09C0049012D /* Host */,
+				4F0C156728A8EDEE0049012D /* Walkthrough */,
+				4F0C157228A8EF960049012D /* HomeGroup */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F0C156728A8EDEE0049012D /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C156828A8EE070049012D /* Animations */,
+				4F0C156428A8E9800049012D /* Walkthrough.swift */,
+			);
+			path = Walkthrough;
+			sourceTree = "<group>";
+		};
+		4F0C156828A8EE070049012D /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C155328A7FB6D0049012D /* WalkthroughAnimation.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		4F0C156928A8EE140049012D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C156F28A8EF5A0049012D /* SearchResultsRow */,
+				4F0C156C28A8EEEE0049012D /* SearchBar */,
+				4F0C156A28A8EE940049012D /* Animations */,
+				4F0C155528A815340049012D /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4F0C156A28A8EE940049012D /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C151928A7D4110049012D /* AnimatedLinearGradient.swift */,
+				4F0C151B28A7DC2B0049012D /* CustomActivityIndicator.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		4F0C156C28A8EEEE0049012D /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C155128A7FA5F0049012D /* CustomSearchBar.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		4F0C156F28A8EF5A0049012D /* SearchResultsRow */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C157528A8EFFB0049012D /* Components */,
+				4F0C155728A819F60049012D /* SearchResultRow.swift */,
+			);
+			path = SearchResultsRow;
+			sourceTree = "<group>";
+		};
+		4F0C157128A8EF8C0049012D /* VideoDetails */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C157428A8EFD50049012D /* VideoPlayer */,
+				4F0C157328A8EFAC0049012D /* Components */,
+				4F0C155B28A8BAB40049012D /* VideoDetails.swift */,
+			);
+			path = VideoDetails;
+			sourceTree = "<group>";
+		};
+		4F0C157228A8EF960049012D /* HomeGroup */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C156928A8EE140049012D /* Home */,
+				4F0C157128A8EF8C0049012D /* VideoDetails */,
+			);
+			path = HomeGroup;
+			sourceTree = "<group>";
+		};
+		4F0C157328A8EFAC0049012D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C155D28A8BC9A0049012D /* VideoDetailsButton.swift */,
+				4F0C157828A902C60049012D /* VideoDetailsThumbnail.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4F0C157428A8EFD50049012D /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C155F28A8C3370049012D /* CustomVideoPlayer.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		4F0C157528A8EFFB0049012D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C155928A81AB90049012D /* SearchResultListRowThumbnail.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4F0C157628A8F02B0049012D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C150928A78D5E0049012D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4F0C157728A8F09C0049012D /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C151728A791B50049012D /* Host.swift */,
+			);
+			path = Host;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F0C150128A78D5C0049012D /* VimeoSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F0C151028A78D5E0049012D /* Build configuration list for PBXNativeTarget "VimeoSwiftUI" */;
+			buildPhases = (
+				4F0C14FE28A78D5C0049012D /* Sources */,
+				4F0C14FF28A78D5C0049012D /* Frameworks */,
+				4F0C150028A78D5C0049012D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VimeoSwiftUI;
+			packageProductDependencies = (
+				4F0C156228A8D9A60049012D /* HCVimeoVideoExtractor */,
+			);
+			productName = NamavaSwiftUI;
+			productReference = 4F0C150228A78D5C0049012D /* VimeoSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F0C14FA28A78D5C0049012D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4F0C150128A78D5C0049012D = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 4F0C14FD28A78D5C0049012D /* Build configuration list for PBXProject "VimeoSwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F0C14F928A78D5C0049012D;
+			packageReferences = (
+				4F0C156128A8D9A60049012D /* XCRemoteSwiftPackageReference "HCVimeoVideoExtractor" */,
+			);
+			productRefGroup = 4F0C150328A78D5C0049012D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F0C150128A78D5C0049012D /* VimeoSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F0C150028A78D5C0049012D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0C150D28A78D5E0049012D /* Preview Assets.xcassets in Resources */,
+				4F0C150A28A78D5E0049012D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F0C14FE28A78D5C0049012D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0C154728A7EDC10049012D /* SizeModel.swift in Sources */,
+				4F0C155E28A8BC9A0049012D /* VideoDetailsButton.swift in Sources */,
+				4F0C155628A815340049012D /* Home.swift in Sources */,
+				4F0C151828A791B50049012D /* Host.swift in Sources */,
+				4F0C157F28A91CA00049012D /* AppDelegate.swift in Sources */,
+				4F0C154828A7EDC10049012D /* PicturesModel.swift in Sources */,
+				4F0C158328A924CB0049012D /* UIApplicationExtensions.swift in Sources */,
+				4F0C154C28A7EDC10049012D /* NetworkManager.swift in Sources */,
+				4F0C155028A7EDC10049012D /* HashableExtension.swift in Sources */,
+				4F0C154428A7EDC10049012D /* PagingModel.swift in Sources */,
+				4F0C155828A819F60049012D /* SearchResultRow.swift in Sources */,
+				4F0C155428A7FB6D0049012D /* WalkthroughAnimation.swift in Sources */,
+				4F0C151A28A7D4110049012D /* AnimatedLinearGradient.swift in Sources */,
+				4F0C155A28A81AB90049012D /* SearchResultListRowThumbnail.swift in Sources */,
+				4F0C150628A78D5C0049012D /* VimeoSwiftUIApp.swift in Sources */,
+				4F0C154B28A7EDC10049012D /* MainModel.swift in Sources */,
+				4F0C156028A8C3370049012D /* CustomVideoPlayer.swift in Sources */,
+				4F0C155228A7FA5F0049012D /* CustomSearchBar.swift in Sources */,
+				4F0C154A28A7EDC10049012D /* MetadataModel.swift in Sources */,
+				4F0C151C28A7DC2B0049012D /* CustomActivityIndicator.swift in Sources */,
+				4F0C155C28A8BAB40049012D /* VideoDetails.swift in Sources */,
+				4F0C158128A920330049012D /* ViewExtensions.swift in Sources */,
+				4F0C157C28A912F90049012D /* CustomVideoPlayerViewModel.swift in Sources */,
+				4F0C157928A902C60049012D /* VideoDetailsThumbnail.swift in Sources */,
+				4F0C154928A7EDC10049012D /* PurpleConnectionsModel.swift in Sources */,
+				4F0C154D28A7EDC10049012D /* UIImageExtension.swift in Sources */,
+				4F0C153128A7ECCB0049012D /* ViewModel.swift in Sources */,
+				4F0C156528A8E9800049012D /* Walkthrough.swift in Sources */,
+				4F0C154528A7EDC10049012D /* DataModel.swift in Sources */,
+				4F0C154628A7EDC10049012D /* CommentsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F0C150E28A78D5E0049012D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F0C150F28A78D5E0049012D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F0C151128A78D5E0049012D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VimeoSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = GR5E89RNHJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VimeoSwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VimeoSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F0C151228A78D5E0049012D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VimeoSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = GR5E89RNHJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VimeoSwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VimeoSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F0C14FD28A78D5C0049012D /* Build configuration list for PBXProject "VimeoSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0C150E28A78D5E0049012D /* Debug */,
+				4F0C150F28A78D5E0049012D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F0C151028A78D5E0049012D /* Build configuration list for PBXNativeTarget "VimeoSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0C151128A78D5E0049012D /* Debug */,
+				4F0C151228A78D5E0049012D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4F0C156128A8D9A60049012D /* XCRemoteSwiftPackageReference "HCVimeoVideoExtractor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/superm0/HCVimeoVideoExtractor";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F0C156228A8D9A60049012D /* HCVimeoVideoExtractor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F0C156128A8D9A60049012D /* XCRemoteSwiftPackageReference "HCVimeoVideoExtractor" */;
+			productName = HCVimeoVideoExtractor;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4F0C14FA28A78D5C0049012D /* Project object */;
+}

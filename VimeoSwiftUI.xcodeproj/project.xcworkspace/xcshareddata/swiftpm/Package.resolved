@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "hcvimeovideoextractor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/superm0/HCVimeoVideoExtractor",
+      "state" : {
+        "branch" : "master",
+        "revision" : "a603e83d72191b2e9e9306a211114aefd9262ad4"
+      }
+    }
+  ],
+  "version" : 2
+}
