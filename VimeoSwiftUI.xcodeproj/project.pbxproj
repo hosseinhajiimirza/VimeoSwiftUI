@@ -96,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				4F0C150428A78D5C0049012D /* VimeoSwiftUI */,
+				4F0C157D28A916F70049012D /* README.md */,
 				4F0C150328A78D5C0049012D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,7 +121,6 @@
 				4F0C150528A78D5C0049012D /* VimeoSwiftUIApp.swift */,
 				4F0C150B28A78D5E0049012D /* Preview Content */,
 				4F0C157A28A909190049012D /* Info.plist */,
-				4F0C157D28A916F70049012D /* README.md */,
 			);
 			path = VimeoSwiftUI;
 			sourceTree = "<group>";
