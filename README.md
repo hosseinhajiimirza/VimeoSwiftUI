@@ -52,28 +52,29 @@ I have already done this project to search videos from Vimeo. I find it very sim
      HomeViewController, SearchResultsViewController, and VideoDetailsViewController.
   4. to Create our tableView for SearchResultsViewController:
    
-    A. Create an enum that conforms to hashable for our sections and itmes that is array of our model
+    Create an enum that conforms to hashable for our sections and itmes that is array of our model
     
-    B. Create dataSource and snapshot:
-
+    Create dataSource and snapshot
+    ```
     var dataSource: UITableViewDiffableDataSource<Section,Model>!
     var snapshot: NSDiffableDataSourceSnapshot<Section,Model>!
-    
-    C. Create Snapshot
-
+    ```
+    Create Snapshot
+    ```
     func createSnapshot() -> NSDiffableDataSourceSnapshot<Section,Model> {}
-        
-    D. DataSource Configuration
-
+    ```
+    DataSource Configuration
+    ```
     func configureDataSource() {}
-    
+    ```
     and inside of our func: .init(tableView:cellProvider:)
     
     if we wanted to use CollectionView, We should also called another func to generate layout. and also if we wanted to build something like appStore we can use UICollectionViewCompositionalLayout and create our custom cells, SupplementaryViewKind, headers and ...
     
   5. we can change the language locally or in the settings app. to add new language:
-     A. We can create Localizable.strings files for each Screen (or we can set two zib files) and define our keys.
-     B. We can create an extension for String to read the keys from bundle and create our NSLocalizedString:
+  
+     We can create Localizable.strings files for each Screen (or we can set two zib files) and define our keys.
+     We can create an extension for String to read the keys from bundle and create our NSLocalizedString:
      
     ```
     extension String {
@@ -84,5 +85,4 @@ I have already done this project to search videos from Vimeo. I find it very sim
           return NSLocalizedString(self, tableName: nil, bundle: bundle!, value: "", comment: "")
         }
     }
-
     ```
